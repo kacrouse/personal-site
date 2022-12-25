@@ -123,3 +123,8 @@ pre[class*='language-']:before,
 pre[class*='language-']:after {
   display: none !important;
 }
+
+.notion-inline-code {
+  font-family: 'Fira Code', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, Courier,
+    monospace
+}

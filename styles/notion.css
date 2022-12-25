@@ -382,3 +382,56 @@
 .notion-block-260baa77f1e1428b97fb14ac99c7c385 {
   display: none;
 }
+
+/* CUSTOMIZATIONS */
+.notion-collection-card-cover {
+  display: none;
+}
+
+.notion-collection-row {
+  border-bottom: 0
+}
+
+.notion-collection-page-properties {
+  text-align: left;
+}
+
+.notion-collection-row-body {
+  flex-direction: row;
+  gap: 10px;
+}
+
+.index-page .notion-title {
+  display: none;
+}
+
+.index-page .notion-collection-header {
+  display: none;
+}
+
+.notion-gallery-grid {
+  border-top: 0;
+  grid-auto-rows: auto;
+}
+
+.notion-title {
+  text-align: left;
+  font-size: 2em;
+}
+
+.notion-collection-card:hover {
+    background: var(--bg-color);
+}
+
+.notion-gallery-grid .notion-page-title-text {
+  font-size: 1.5em;
+}
+
+.notion-gallery-grid {
+  grid-gap: 0;
+  gap: 0;
+}
+
+.index-page {
+  --notion-max-width: 750px;
+}
